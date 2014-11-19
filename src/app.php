@@ -11,9 +11,9 @@ $app->register(
         'db.options' => array (
         'driver' => 'pdo_mysql',
         'host' => '127.0.0.1',
-        'dbname' => 'symfony_test',
-        'user' => 'root',
-        'password' => 'raul79',
+        'dbname' => 'db-name',
+        'user' => 'user',
+        'password' => 'pass',
         'charset' => 'utf8'
         )
     )
