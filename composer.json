@@ -9,6 +9,6 @@
 		}
 	},
     "require": {
-        "silex/silex": "~1.2"
+        "slim/slim": "2.*"
     }
 }
