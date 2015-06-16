@@ -1,8 +1,10 @@
 <?php
-namespace Posting;
+namespace Posting\Entity;
 
-class Postage extends Main
+class Post extends Base
 {
+
+    private $id;
 
     private $summary;
 
