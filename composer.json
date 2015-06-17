@@ -1,11 +1,12 @@
 {
-    "name" : "posting",
-	"license" : "MIT",
-	"type" : "project",
-	"description" : "Posting CMS",
-	"autoload" : {
-		"psr-0" : {
-		"" : "src/"
-		}
-	}
+    "name": "posting",
+	"license": "MIT",
+	"type": "project",
+	"description": "Posting CMS",
+	"autoload": { 
+		"psr-0": { "": "src/" }
+	},
+    "require": {
+        "silex/silex": "~1.3"
+    }
 }
