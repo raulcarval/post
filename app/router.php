@@ -1,5 +1,6 @@
 <?php
+ini_set('display_errors', 1);
 
-use Posting\Controller\Post;
-
-$app->get('/', 'Posting\Controller\Post::indexPost')->bind('homepage');
+$app->match('/', 'Posting\Controller\Post::index')->bind('homepage');
+$app->match('/find', 'Posting\Controller\PostController::findAll')->bind('find');
+$app->get('/insert', 'Posting\Controller\PostController::insert')->bind('insert');
