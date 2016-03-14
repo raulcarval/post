@@ -5,10 +5,5 @@
 	"description": "Posting CMS",
 	"autoload": { 
 		"psr-0": { "": "src/" }
-	},
-    "require": {
-        "silex/silex": "~1.3",
-        "squizlabs/php_codesniffer": "2.*",
-        "twig/twig": "^1.18"
-    }
+	}
 }
