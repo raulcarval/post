@@ -1,9 +1,12 @@
 {
-    "name": "posting",
+    "name": "post",
 	"license": "MIT",
 	"type": "project",
-	"description": "Posting CMS",
+	"description": "Post",
 	"autoload": { 
 		"psr-0": { "": "src/" }
-	}
+	},
+	"require-dev": {
+        "squizlabs/php_codesniffer": "2.*"
+    }
 }
